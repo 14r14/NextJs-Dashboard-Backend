@@ -23,7 +23,7 @@ const UserSchema = new Schema({
         type: String,
         required: false,
     },
-    courseProgress: {
+    coursesProgress: {
         type: Object,
         required: false,
     }
